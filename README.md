@@ -148,7 +148,10 @@ const nfts = await metaplex.nfts().findAllByCreator(creatorPublicKey, 1); // Equ
 const nfts = await metaplex.nfts().findAllByCreator(creatorPublicKey, 2); // Now matching the second creator field.
 ```
 
-Similarly to `findAllByMintList`, the returned `Nft`s will not have their JSON metadata nor their edition account loaded.
+Similarly to `findAllByMintList`, the dData = async (startIndex, endIndex) => {
+    // add some code here
+  };
+returned `Nft`s will not have their JSON metadata nor their edition account loaded.
 
 ### findAllByCandyMachine
 
